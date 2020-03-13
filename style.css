@@ -129,22 +129,30 @@ body{
     text-align: left;
     width: 100%;
     display: table;
+    
     margin: 0;
+    height: 180px!important;
     padding: 0 10px 30px 0;
 }
 .info-icon{
-    position: relative;
-    display: table-cell;
-    padding: 0 10px 5px 0;
-    width: 24px;
+/*    background: black;*/
+    height: 32px!important;
+    position: static;
+/*    display: table-cell;*/
+/*    padding: 0 10px 5px 0;*/
+    width: 32px;
+/*    margin-top:10px;*/
     font-size: 24px;
 }
-
+#whatido2{
+/* margin-top:10px;   */
+}
 .info-text{
     position: relative;
     display: table-cell;
     padding: 0 0 0 15px;
     vertical-align: middle;
+    text-align: justify;
 }
 .whatido{
     padding:0 5vw;
@@ -156,6 +164,15 @@ body{
 }
 @media only screen and (max-width: 768px) 
 {
+    .landing{
+        height: auto;
+    }
+    .whatido{
+        padding-top:50px;
+    }
+    .section-title{
+        text-align: center;
+    }
     .hero-circle{
     width:80vw;
     }
